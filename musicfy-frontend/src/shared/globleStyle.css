@@ -1,0 +1,18 @@
+.screen-container{
+    width: 100%;
+    height: 100%;
+    background-color: #1e2a3e;
+    border-radius: 30px;
+
+
+    background-image: repeating-radial-gradient(   /*website->  magicpattern.design */
+      circle at center left,
+      transparent 0,
+      #233656 100px
+    ),
+    repeating-linear-gradient(#1e2a3e55, #1e2a3e);
+}
+
+.flex{
+  display: flex;
+}
