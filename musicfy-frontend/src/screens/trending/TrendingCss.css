@@ -1,0 +1,63 @@
+/* TrendingCss.css */
+
+.liked-music-container {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgb(30, 42, 62);
+    background: linear-gradient(
+      75deg,
+      rgb(40, 58, 88) 0%,
+      rgba(54, 69, 98, 0) 100%
+    );
+  }
+  
+  .liked-music-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .liked-music-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .track-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .track-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .track-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .track-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .track-artist {
+    color: #666;
+  }
+  
+  .play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .play-button svg {
+    font-size: 24px;
+    color: #E99D72;
+  }
+  
